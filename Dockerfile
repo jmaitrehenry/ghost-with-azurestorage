@@ -1,4 +1,4 @@
-ARG GHOST_VERSION=4.9.4
+ARG GHOST_VERSION=4.18.0
 FROM ghost:${GHOST_VERSION}
 
 COPY azure /var/lib/ghost/content.orig/adapters/storage/azure
